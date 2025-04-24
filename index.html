@@ -78,6 +78,9 @@
       <li><a href="#afterlife">Afterlife</a></li>
     </ul>
   </nav>
+  <p style="text-align:center; margin-top:10px;">
+    <a href="resources.html" style="font-size:1em; color:#007acc; text-decoration:none;">Explore Further Resources</a>
+  </p>
   <h1>Questions About God</h1>
   <h2 id="free-will">Free Will & Divine Plan</h2>
   <details><summary>If God has a divine plan/blueprint for the Universe, how does man have free will?</summary><p>If all events are predestined, then any choice we make is merely an illusion of agency. This question highlights a tension between divine sovereignty and human autonomy. Can true responsibility exist if all outcomes are already determined?</p></details>
@@ -170,5 +173,48 @@
 <details><summary>What is the purpose of life according to God?</summary><p>This question opens up the grand teleological inquiry. Is our purpose to serve, worship, evolve, or something else entirely? And if known, why isn't that purpose made universally clear?</p></details>
 <details><summary>Would people still worship God if there were no heaven or hell?</summary><p>This challenges the motive behind worship. If consequences were removed, would reverence persist—or fade? Is devotion genuine or incentive-driven?</p></details>
 <details><summary>Is it moral to believe in God only for reward or fear of punishment?</summary><p>This question evaluates the ethics of belief. Does belief grounded in self-interest reflect true faith—or transactional compliance?</p></details>
+<h2 id="resources">Recommended Resources</h2>
+<p style="font-style:italic; color:#555; margin-top:-10px;">Explore diverse perspectives and critical tools for deeper understanding.</p>
+  <ul style="background:#fff; border:1px solid #deb887; border-radius:5px; padding:15px; list-style:none; margin-bottom:40px;">
+    <li style="margin-bottom:10px;"><img src="https://img.icons8.com/color/24/000000/library.png" alt="Library icon" style="vertical-align:middle; margin-right:6px;"/><a href="https://www.infidels.org/" target="_blank">Internet Infidels Library</a> – Thoughtful critiques of religious claims and philosophies.</li>
+    <li style="margin-bottom:10px;"><img src="https://img.icons8.com/color/24/000000/book.png" alt="Book icon" style="vertical-align:middle; margin-right:6px;"/><a href="https://www.skepticsannotatedbible.com/" target="_blank">Skeptic’s Annotated Bible</a> – Highlighted contradictions, questions, and commentary on scripture.</li>
+    <li style="margin-bottom:10px;"><img src="https://img.icons8.com/color/24/000000/open-book--v2.png" alt="Bible icon" style="vertical-align:middle; margin-right:6px;"/><a href="https://www.blueletterbible.org/" target="_blank">Blue Letter Bible</a> – Original language tools, lexicons, and historical context for biblical study.</li>
+    <li style="margin-bottom:10px;"><img src="https://img.icons8.com/color/24/000000/youtube-play.png" alt="YouTube icon" style="vertical-align:middle; margin-right:6px;"/><a href="https://www.youtube.com/user/TheThinkingAtheist" target="_blank">The Thinking Atheist (YouTube)</a> – Engaging discussions and explorations of religious claims from a humanist perspective.</li>
+    <li><img src="https://img.icons8.com/color/24/000000/mind-map.png" alt="Mind icon" style="vertical-align:middle; margin-right:6px;"/><a href="https://plato.stanford.edu/" target="_blank">Stanford Encyclopedia of Philosophy</a> – In-depth academic entries on topics like free will, divine attributes, and moral theory.</li>
+    <li><a href="https://www.infidels.org/" target="_blank">Internet Infidels Library</a> – Thoughtful critiques of religious claims and philosophies.</li>
+    <li><a href="https://www.skepticsannotatedbible.com/" target="_blank">Skeptic’s Annotated Bible</a> – Highlighted contradictions, questions, and commentary on scripture.</li>
+    <li><a href="https://www.blueletterbible.org/" target="_blank">Blue Letter Bible</a> – Original language tools, lexicons, and historical context for biblical study.</li>
+    <li><a href="https://www.youtube.com/user/TheThinkingAtheist" target="_blank">The Thinking Atheist (YouTube)</a> – Engaging discussions and explorations of religious claims from a humanist perspective.</li>
+    <li><a href="https://plato.stanford.edu/" target="_blank">Stanford Encyclopedia of Philosophy</a> – In-depth academic entries on topics like free will, divine attributes, and moral theory.</li>
+  </ul>
+<h2 id="submit">Submit a Question</h2>
+  <form action="https://formspree.io/f/mwkgyydr" method="POST" style="background:#fff; padding:20px; border:1px solid #deb887; border-radius:5px; margin-bottom:40px;">
+    <label for="name">Name (optional):</label><br>
+    <input type="text" id="name" name="name" style="width:100%; padding:8px; margin-bottom:10px;"><br>
+
+    <label for="email">Email (optional):</label><br>
+    <input type="email" id="email" name="email" style="width:100%; padding:8px; margin-bottom:10px;"><br>
+
+    <label for="question">Your Question:</label><br>
+    <textarea id="question" name="question" required style="width:100%; padding:10px; height:100px; margin-bottom:10px;"></textarea><br>
+
+    <button type="submit" style="padding:10px 20px; background-color:#007acc; color:#fff; border:none; border-radius:4px; cursor:pointer;">Submit Question</button>
+  </form>
+
+  <h2 id="discussion">Community Discussion</h2>
+  <div id="disqus_thread" style="margin-bottom:60px;"></div>
+  <script>
+  var disqus_config = function () {
+    this.page.url = window.location.href;
+    this.page.identifier = 'questions-about-god';
+  };
+  (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://questionsaboutgod.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 </body>
 </html>
